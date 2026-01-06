@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PulseMind AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f9ff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0078ff, #00c6ff);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0078ff;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    footer {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #00c6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PulseMind AI</h1>
+  <p>Detecting silent health risks before they become illness</p>
+</header>
+
+<section>
+  <h2>The Problem</h2>
+  <p>
+    Most health issues start with subtle signals like fatigue, poor sleep,
+    emotional numbness, or mental overload. These early warnings often go unnoticed
+    until serious illness develops.
+  </p>
+</section>
+
+<section>
+  <h2>The Solution</h2>
+  <p>
+    PulseMind AI is a preventive AI platform that listens to weak physical,
+    mental, and emotional signals over time to reveal invisible health risks
+    before crisis occurs.
+  </p>
+</section>
+
+<section>
+  <h2>Core Features</h2>
+  <div class="features">
+    <div class="card">Silent Symptom Detector</div>
+    <div class="card">Mental Load Index</div>
+    <div class="card">Emotional Side-Effect Predictor</div>
+    <div class="card">Chronic Day-Quality Tracker</div>
+    <div class="card">Health Honesty Reflector</div>
+    <div class="card">Health Translator</div>
+  </div>
+</section>
+
+<section>
+  <h2>How It Works</h2>
+  <p>
+    Users complete a 30–60 second daily check-in. AI analyzes trends over time
+    and provides gentle, non-medical insights and early warnings.
+  </p>
+</section>
+
+<section>
+  <h2>Technology</h2>
+  <p>
+    Microsoft Azure OpenAI, Azure Cognitive Services, and Azure Machine Learning
+    power PulseMind AI.
+  </p>
+</section>
+
+<section>
+  <h2>Ethics & Safety</h2>
+  <p>
+    PulseMind AI does not diagnose or prescribe treatment. It prioritizes
+    transparency, user control, and emotional safety.
+  </p>
+</section>
+
+<footer>
+  <p>
+    View on GitHub:
+    <a href="https://github.com/YOUR_USERNAME/pulsemind-ai" target="_blank">
+      PulseMind AI Repository
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
